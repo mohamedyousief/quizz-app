@@ -1,0 +1,53 @@
+/* تنسيق الصفحة بشكل عام */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* الحاوية الرئيسية */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* تنسيق الحقول النصية */
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* زر "to exam" */
+.bg {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* تغيير لون الزر عند التمرير عليه */
+.bg:hover {
+    background-color: #0056b3;
+}
+
+/* تنسيق رسالة التنبيه */
+.alert {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}

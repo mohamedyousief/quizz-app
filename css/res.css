@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 75px;
+}
+.table{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+tr{
+    height: 40px;
+    background-color: white;
+}
+td{
+    text-align: center;
+    padding: 10px;
+    color: rgb(73, 69, 69);
+    font-weight: bold;
+}
+th{
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.bg_blue{
+    background-color: rgb(0, 174, 255);
+}
+.bg_red{
+    background-color: rgb(216, 10, 10);
+}
+.bg_green{
+    background-color: rgb(23, 223, 23);
+}
